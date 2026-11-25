@@ -1,0 +1,4295 @@
+{
+ "buckets": {
+  "aw-watcher-window_host-a.example.net": {
+   "id": "aw-watcher-window_host-a.example.net",
+   "created": "2026-11-30T08:00:00+00:00",
+   "type": "currentwindow",
+   "client": "aw-watcher-window",
+   "hostname": "host-a.example.net",
+   "data": {},
+   "events": [
+    {
+     "timestamp": "2026-12-01T22:03:06.675058+00:00",
+     "duration": 600,
+     "data": {
+      "app": "loginwindow",
+      "title": ""
+     }
+    },
+    {
+     "timestamp": "2026-12-01T22:00:06.393312+00:00",
+     "duration": 180,
+     "data": {
+      "app": "Google Chrome",
+      "title": "secret stuff"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:58:36.266001+00:00",
+     "duration": 90,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | Gradescope"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:58:08.001210+00:00",
+     "duration": 27.62,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:56:03.912852+00:00",
+     "duration": 123.369,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:52:50.964715+00:00",
+     "duration": 192.548,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:50:53.911158+00:00",
+     "duration": 116.864,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:48:31.125543+00:00",
+     "duration": 142.536,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:45:35.621510+00:00",
+     "duration": 175.223,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:38:34.865854+00:00",
+     "duration": 420,
+     "data": {
+      "app": "Google Chrome",
+      "title": "krillion.io"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:38:09.191940+00:00",
+     "duration": 24.675,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:36:47.589843+00:00",
+     "duration": 80.889,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Question about Q3 \u2013 Ed Discussion"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:36:05.494835+00:00",
+     "duration": 41.764,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:34:23.941800+00:00",
+     "duration": 101.137,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:33:59.468017+00:00",
+     "duration": 24.47,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:33:18.288350+00:00",
+     "duration": 40.282,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Question about Q3 \u2013 Ed Discussion"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:31:09.050849+00:00",
+     "duration": 128.606,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:30:35.358724+00:00",
+     "duration": 33.43,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:27:16.057823+00:00",
+     "duration": 198.914,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:26:40.145085+00:00",
+     "duration": 35.454,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:23:20.801935+00:00",
+     "duration": 198.794,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:22:07.981871+00:00",
+     "duration": 72.354,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Question about Q3 \u2013 Ed Discussion"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:19:46.329402+00:00",
+     "duration": 140.96,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:17:34.461606+00:00",
+     "duration": 131.807,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:16:14.090942+00:00",
+     "duration": 79.719,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:13:35.838033+00:00",
+     "duration": 158.055,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Question about Q3 \u2013 Ed Discussion"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:12:06.498137+00:00",
+     "duration": 88.861,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:09:34.242095+00:00",
+     "duration": 151.28,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:08:28.772809+00:00",
+     "duration": 65.395,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:06:38.171969+00:00",
+     "duration": 110.535,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Question about Q3 \u2013 Ed Discussion"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:06:16.777693+00:00",
+     "duration": 20.597,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:05:46.956572+00:00",
+     "duration": 29.14,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:02:33.867061+00:00",
+     "duration": 192.713,
+     "data": {
+      "app": "Code",
+      "title": "hw09.py \u2014 hw09"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:02:30.229941+00:00",
+     "duration": 3,
+     "data": {
+      "app": "Google Chrome",
+      "title": "hw09.zip"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:00:00.000000+00:00",
+     "duration": 150,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Homework 9 | CS 61A Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:33:26.877204+00:00",
+     "duration": 1800,
+     "data": {
+      "app": "loginwindow",
+      "title": ""
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:33:06.050795+00:00",
+     "duration": 20,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Sam Example (@samexample) \u2022 Instagram photos and videos"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:32:10.527038+00:00",
+     "duration": 55,
+     "data": {
+      "app": "Slack",
+      "title": "general (Channel) - Example Workspace - Slack"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:31:10.387730+00:00",
+     "duration": 60,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Instagram \u2022 Chats"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:30:29.760398+00:00",
+     "duration": 40,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Re: lunch? call me at (510) 555-0142 - alex.example@berkeley.edu - UC Berkeley Mail"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:29:19.117179+00:00",
+     "duration": 70,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Inbox (1,234) - alex.example@berkeley.edu - UC Berkeley Mail"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:26:42.421440+00:00",
+     "duration": 155.975,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Apply - Software Intern - Example Corp"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:24:39.782237+00:00",
+     "duration": 121.982,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Application for Software Engineer Intern at Sample Labs"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:22:37.325890+00:00",
+     "duration": 122.152,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Apply - Software Intern - Example Corp"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:20:45.845856+00:00",
+     "duration": 110.663,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Application for Software Engineer Intern at Sample Labs"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:19:18.396502+00:00",
+     "duration": 86.947,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Apply - Software Intern - Example Corp"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:18:59.937865+00:00",
+     "duration": 18.241,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:18:22.833876+00:00",
+     "duration": 36.142,
+     "data": {
+      "app": "Google Chrome",
+      "title": "summer 2027 internship Jobs | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:17:45.872642+00:00",
+     "duration": 36.916,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:17:15.207313+00:00",
+     "duration": 29.795,
+     "data": {
+      "app": "Google Chrome",
+      "title": "summer 2027 internship Jobs | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:16:04.247124+00:00",
+     "duration": 70.219,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:15:32.189936+00:00",
+     "duration": 31.917,
+     "data": {
+      "app": "Google Chrome",
+      "title": "summer 2027 internship Jobs | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:18.178636+00:00",
+     "duration": 73.324,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:16.511081+00:00",
+     "duration": 1.122,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 24 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:14.007166+00:00",
+     "duration": 1.569,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 23 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:11.681787+00:00",
+     "duration": 1.592,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 22 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:10.805319+00:00",
+     "duration": 0.606,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 21 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:09.791758+00:00",
+     "duration": 0.482,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 20 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:08.336511+00:00",
+     "duration": 1.193,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 19 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:07.422422+00:00",
+     "duration": 0.785,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 18 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:07.117604+00:00",
+     "duration": 0.293,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 17 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:05.421211+00:00",
+     "duration": 1.088,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 16 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:03.832865+00:00",
+     "duration": 1.319,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 15 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:02.256563+00:00",
+     "duration": 1.487,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 14 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:00.461192+00:00",
+     "duration": 1.389,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 13 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:59.449992+00:00",
+     "duration": 0.255,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 12 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:57.786814+00:00",
+     "duration": 1.579,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 11 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:56.161942+00:00",
+     "duration": 0.664,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 10 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:55.231515+00:00",
+     "duration": 0.227,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 9 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:54.464558+00:00",
+     "duration": 0.675,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 8 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:52.105063+00:00",
+     "duration": 1.365,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 7 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:50.696913+00:00",
+     "duration": 1.245,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 6 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:48.605009+00:00",
+     "duration": 1.124,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 5 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:46.367994+00:00",
+     "duration": 1.298,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 4 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:45.853740+00:00",
+     "duration": 0.302,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 3 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:44.085376+00:00",
+     "duration": 1.376,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 2 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:41.983687+00:00",
+     "duration": 1.179,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 1 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:40.642651+00:00",
+     "duration": 0.833,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 0 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:00.443248+00:00",
+     "duration": 40,
+     "data": {
+      "app": "Google Chrome",
+      "title": "summer 2027 internship Jobs | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:12:52.925800+00:00",
+     "duration": 7.074,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:11:30.822936+00:00",
+     "duration": 81.826,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:10:47.521698+00:00",
+     "duration": 42.819,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:10:16.310331+00:00",
+     "duration": 30.486,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:09:54.392436+00:00",
+     "duration": 21.309,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:08:35.960833+00:00",
+     "duration": 77.9,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:07:23.351243+00:00",
+     "duration": 71.795,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:06:21.466446+00:00",
+     "duration": 61.051,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:05:00.000000+00:00",
+     "duration": 81.173,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:39:22.161233+00:00",
+     "duration": 1500,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Grouping Rows - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:37:42.927684+00:00",
+     "duration": 98.247,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Aggregation Functions - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:36:40.171832+00:00",
+     "duration": 62.742,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Grouping Rows - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:34:31.621006+00:00",
+     "duration": 127.724,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:33:43.760415+00:00",
+     "duration": 47.833,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Aggregation Functions - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:32:55.079784+00:00",
+     "duration": 48.217,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:29:47.116362+00:00",
+     "duration": 187.529,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Grouping Rows - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:27:01.148634+00:00",
+     "duration": 165.058,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:23:21.174684+00:00",
+     "duration": 219.065,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Aggregation Functions - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:22:45.550618+00:00",
+     "duration": 35,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Order Details | DoorDash"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:22:00.080538+00:00",
+     "duration": 45,
+     "data": {
+      "app": "Messages",
+      "title": "Jordan Rivera"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:21:28.260303+00:00",
+     "duration": 31.74,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:20:50.024904+00:00",
+     "duration": 37.279,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:20:27.236052+00:00",
+     "duration": 22.058,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:19:31.401729+00:00",
+     "duration": 55.016,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:18:34.487098+00:00",
+     "duration": 56.301,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:17:53.574555+00:00",
+     "duration": 40.141,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:16:47.919015+00:00",
+     "duration": 64.677,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:16:07.544522+00:00",
+     "duration": 40.013,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:15:50.130616+00:00",
+     "duration": 16.935,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:15:34.498303+00:00",
+     "duration": 15.152,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:15:02.569803+00:00",
+     "duration": 31.326,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:14:21.273943+00:00",
+     "duration": 41.27,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:14:03.108766+00:00",
+     "duration": 18.063,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:13:48.498857+00:00",
+     "duration": 14.419,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:12:54.239824+00:00",
+     "duration": 53.867,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:12:25.535676+00:00",
+     "duration": 27.754,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:12:00.710795+00:00",
+     "duration": 24.29,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:11:41.773233+00:00",
+     "duration": 18.925,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:11:07.067118+00:00",
+     "duration": 33.748,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:10:24.137859+00:00",
+     "duration": 42.065,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:09:30.278748+00:00",
+     "duration": 53.779,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:09:11.641541+00:00",
+     "duration": 18.419,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:08:19.188055+00:00",
+     "duration": 52.431,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:07:24.863080+00:00",
+     "duration": 53.332,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:06:24.088036+00:00",
+     "duration": 60.078,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:05:54.420554+00:00",
+     "duration": 29.088,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:05:43.416678+00:00",
+     "duration": 10.431,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:05:03.524858+00:00",
+     "duration": 39.74,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:04:24.539706+00:00",
+     "duration": 38.697,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:03:57.872297+00:00",
+     "duration": 26.586,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:03:18.628996+00:00",
+     "duration": 38.778,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:02:58.416624+00:00",
+     "duration": 19.648,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:02:43.010450+00:00",
+     "duration": 15.303,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:02:21.013768+00:00",
+     "duration": 21.707,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:01:33.527367+00:00",
+     "duration": 46.901,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:00:51.238635+00:00",
+     "duration": 42.165,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:00:11.359447+00:00",
+     "duration": 39.461,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:00:00.000000+00:00",
+     "duration": 10.994,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T16:55:00.000000+00:00",
+     "duration": 90,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Google Calendar - Week of November 30, 2026"
+     }
+    }
+   ]
+  },
+  "aw-watcher-web-chrome_host-a.example.net": {
+   "id": "aw-watcher-web-chrome_host-a.example.net",
+   "created": "2026-11-30T08:00:00+00:00",
+   "type": "web.tab.current",
+   "client": "aw-client-web",
+   "hostname": "host-a.example.net",
+   "data": {},
+   "events": [
+    {
+     "timestamp": "2026-12-01T22:00:06.608576+00:00",
+     "duration": 179.785,
+     "data": {
+      "url": "https://example.org/private",
+      "title": "secret stuff",
+      "audible": false,
+      "incognito": true,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:58:36.333143+00:00",
+     "duration": 89.933,
+     "data": {
+      "url": "https://www.gradescope.com/courses/912345/assignments/5432109/submissions",
+      "title": "Homework 9 | Gradescope",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 22
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:58:08.209011+00:00",
+     "duration": 27.412,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:52:51.324208+00:00",
+     "duration": 192.189,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:48:31.397780+00:00",
+     "duration": 142.264,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:38:35.042102+00:00",
+     "duration": 419.824,
+     "data": {
+      "url": "https://krillion.io/play?room=Ab12Cd34Ef56",
+      "title": "krillion.io",
+      "audible": true,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:38:09.264682+00:00",
+     "duration": 24.602,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:36:47.779234+00:00",
+     "duration": 80.7,
+     "data": {
+      "url": "https://edstem.org/us/courses/81234/discussion/7733221",
+      "title": "Question about Q3 \u2013 Ed Discussion",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:34:24.097483+00:00",
+     "duration": 100.981,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:33:18.466166+00:00",
+     "duration": 40.104,
+     "data": {
+      "url": "https://edstem.org/us/courses/81234/discussion/7733221",
+      "title": "Question about Q3 \u2013 Ed Discussion",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:30:35.440330+00:00",
+     "duration": 33.349,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:26:40.360616+00:00",
+     "duration": 35.238,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:22:08.212658+00:00",
+     "duration": 72.123,
+     "data": {
+      "url": "https://edstem.org/us/courses/81234/discussion/7733221",
+      "title": "Question about Q3 \u2013 Ed Discussion",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 19
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:17:34.558310+00:00",
+     "duration": 131.71,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:13:36.103974+00:00",
+     "duration": 157.789,
+     "data": {
+      "url": "https://edstem.org/us/courses/81234/discussion/7733221",
+      "title": "Question about Q3 \u2013 Ed Discussion",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:09:34.363921+00:00",
+     "duration": 151.158,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:06:38.409289+00:00",
+     "duration": 110.297,
+     "data": {
+      "url": "https://edstem.org/us/courses/81234/discussion/7733221",
+      "title": "Question about Q3 \u2013 Ed Discussion",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:05:47.013166+00:00",
+     "duration": 29.084,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 22
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:02:30.290847+00:00",
+     "duration": 2.939,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/hw09.zip",
+      "title": "hw09.zip",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:00:00.254422+00:00",
+     "duration": 149.746,
+     "data": {
+      "url": "https://cs61a.org/hw/hw09/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "Homework 9 | CS 61A Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:33:06.277325+00:00",
+     "duration": 19.773,
+     "data": {
+      "url": "https://www.instagram.com/samexample/",
+      "title": "Sam Example (@samexample) \u2022 Instagram photos and videos",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 5
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:31:10.694578+00:00",
+     "duration": 59.693,
+     "data": {
+      "url": "https://www.instagram.com/direct/t/17845123456789012/",
+      "title": "Instagram \u2022 Chats",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:30:29.825724+00:00",
+     "duration": 39.935,
+     "data": {
+      "url": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQXJWDsKmbLqTvRsPwNz",
+      "title": "Re: lunch? call me at (510) 555-0142 - alex.example@berkeley.edu - UC Berkeley Mail",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:29:19.266641+00:00",
+     "duration": 69.851,
+     "data": {
+      "url": "https://mail.google.com/mail/u/0/#inbox",
+      "title": "Inbox (1,234) - alex.example@berkeley.edu - UC Berkeley Mail",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 24
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:26:42.607771+00:00",
+     "duration": 155.789,
+     "data": {
+      "url": "https://careers.examplecorp.com/apply/req-20931?src=linkedin",
+      "title": "Apply - Software Intern - Example Corp",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:24:40.017453+00:00",
+     "duration": 121.746,
+     "data": {
+      "url": "https://boards.greenhouse.io/samplelabs/jobs/5512345678?gh_src=xyz123",
+      "title": "Job Application for Software Engineer Intern at Sample Labs",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:22:37.513783+00:00",
+     "duration": 121.964,
+     "data": {
+      "url": "https://careers.examplecorp.com/apply/req-20931?src=linkedin",
+      "title": "Apply - Software Intern - Example Corp",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:20:45.897589+00:00",
+     "duration": 110.611,
+     "data": {
+      "url": "https://boards.greenhouse.io/samplelabs/jobs/5512345678?gh_src=xyz123",
+      "title": "Job Application for Software Engineer Intern at Sample Labs",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 13
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:19:18.475864+00:00",
+     "duration": 86.867,
+     "data": {
+      "url": "https://careers.examplecorp.com/apply/req-20931?src=linkedin",
+      "title": "Apply - Software Intern - Example Corp",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 13
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:19:00.325848+00:00",
+     "duration": 17.853,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/view/4123456789/?refId=Q1w2E3r4T5y6U7i8",
+      "title": "Software Engineering Intern | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:18:22.885144+00:00",
+     "duration": 36.091,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?keywords=summer%202027%20internship",
+      "title": "summer 2027 internship Jobs | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:17:46.007417+00:00",
+     "duration": 36.781,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/view/4123456789/?refId=Q1w2E3r4T5y6U7i8",
+      "title": "Software Engineering Intern | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:17:15.286883+00:00",
+     "duration": 29.715,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?keywords=summer%202027%20internship",
+      "title": "summer 2027 internship Jobs | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:16:04.302113+00:00",
+     "duration": 70.164,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/view/4123456789/?refId=Q1w2E3r4T5y6U7i8",
+      "title": "Software Engineering Intern | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:15:32.548611+00:00",
+     "duration": 31.559,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?keywords=summer%202027%20internship",
+      "title": "summer 2027 internship Jobs | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:18.568245+00:00",
+     "duration": 72.934,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/view/4123456789/?refId=Q1w2E3r4T5y6U7i8",
+      "title": "Software Engineering Intern | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:16.788618+00:00",
+     "duration": 0.844,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4014264840&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 24 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:14.237148+00:00",
+     "duration": 1.339,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4073960561&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 23 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 12
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:11.744719+00:00",
+     "duration": 1.529,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4002437810&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 22 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 5
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:11.030350+00:00",
+     "duration": 0.381,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4027631611&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 21 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:09.950955+00:00",
+     "duration": 0.323,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4024313000&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 20 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:08.714855+00:00",
+     "duration": 0.815,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4070721337&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 19 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:07.792821+00:00",
+     "duration": 0.414,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4074231009&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 18 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 24
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:07.469575+00:00",
+     "duration": 0.0,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4029851095&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 17 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 19
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:05.751781+00:00",
+     "duration": 0.758,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4002259115&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 16 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:03.947035+00:00",
+     "duration": 1.205,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4007721077&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 15 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:02.506271+00:00",
+     "duration": 1.237,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4072021083&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 14 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:14:00.747783+00:00",
+     "duration": 1.103,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4056673996&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 13 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 13
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:59.772641+00:00",
+     "duration": 0.0,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4036496546&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 12 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 13
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:58.112741+00:00",
+     "duration": 1.253,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4015146464&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 11 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 8
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:56.430316+00:00",
+     "duration": 0.396,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4051585853&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 10 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:55.475433+00:00",
+     "duration": 0.0,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4049117315&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 9 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 19
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:54.583069+00:00",
+     "duration": 0.556,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4054198427&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 8 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:52.211576+00:00",
+     "duration": 1.259,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4089635023&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 7 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:50.779857+00:00",
+     "duration": 1.162,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4029472579&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 6 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:48.705052+00:00",
+     "duration": 1.024,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4086363470&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 5 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:46.731953+00:00",
+     "duration": 0.934,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4040638453&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 4 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:45.987964+00:00",
+     "duration": 0.167,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4042410090&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 3 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:44.183373+00:00",
+     "duration": 1.278,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4027190971&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 2 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 8
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:42.340474+00:00",
+     "duration": 0.822,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4033239798&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 1 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 13
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:40.879301+00:00",
+     "duration": 0.597,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4037203213&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 0 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:13:00.670192+00:00",
+     "duration": 39.773,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?keywords=summer%202027%20internship&utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "summer 2027 internship Jobs | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:12:53.172405+00:00",
+     "duration": 6.828,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:11:30.892824+00:00",
+     "duration": 81.756,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:10:47.753120+00:00",
+     "duration": 42.587,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 22
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:10:16.409877+00:00",
+     "duration": 30.387,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 24
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:09:54.596480+00:00",
+     "duration": 21.105,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:08:36.318192+00:00",
+     "duration": 77.542,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:07:23.715439+00:00",
+     "duration": 71.43,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 23
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:06:21.607224+00:00",
+     "duration": 60.91,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:05:00.059798+00:00",
+     "duration": 81.114,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:39:22.161233+00:00",
+     "duration": 1500,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Zx9cVb2nMaS&list=PLx0sYbCqOb8T",
+      "title": "Grouping Rows - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 12
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:37:43.304453+00:00",
+     "duration": 97.87,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Qw3rTy7uIoP&list=PLx0sYbCqOb8T",
+      "title": "Aggregation Functions - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:36:40.413732+00:00",
+     "duration": 62.5,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Zx9cVb2nMaS&list=PLx0sYbCqOb8T",
+      "title": "Grouping Rows - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 5
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:34:31.900556+00:00",
+     "duration": 127.445,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 24
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:33:43.866015+00:00",
+     "duration": 47.727,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Qw3rTy7uIoP&list=PLx0sYbCqOb8T",
+      "title": "Aggregation Functions - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:32:55.460942+00:00",
+     "duration": 47.836,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:29:47.333673+00:00",
+     "duration": 187.312,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Zx9cVb2nMaS&list=PLx0sYbCqOb8T",
+      "title": "Grouping Rows - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:27:01.490761+00:00",
+     "duration": 164.716,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 8
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:23:21.518836+00:00",
+     "duration": 218.721,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Qw3rTy7uIoP&list=PLx0sYbCqOb8T",
+      "title": "Aggregation Functions - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:22:45.718826+00:00",
+     "duration": 34.832,
+     "data": {
+      "url": "https://www.doordash.com/orders/9f8e7d6c5b4a39281706/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "Order Details | DoorDash",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:21:28.656116+00:00",
+     "duration": 31.344,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:20:50.142680+00:00",
+     "duration": 37.161,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 24
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:20:27.467226+00:00",
+     "duration": 21.827,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:19:31.520030+00:00",
+     "duration": 54.898,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 12
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:18:34.652481+00:00",
+     "duration": 56.136,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 12
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:17:53.942445+00:00",
+     "duration": 39.773,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:16:48.234365+00:00",
+     "duration": 64.362,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:16:07.666347+00:00",
+     "duration": 39.891,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:15:50.443002+00:00",
+     "duration": 16.623,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 13
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:15:34.719127+00:00",
+     "duration": 14.931,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 19
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:15:02.841846+00:00",
+     "duration": 31.054,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:14:21.656075+00:00",
+     "duration": 40.888,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 24
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:14:03.277785+00:00",
+     "duration": 17.894,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 6
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:13:48.770858+00:00",
+     "duration": 14.147,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 6
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:12:54.449649+00:00",
+     "duration": 53.657,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 22
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:12:25.629598+00:00",
+     "duration": 27.66,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:12:00.762228+00:00",
+     "duration": 24.239,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:11:41.904418+00:00",
+     "duration": 18.794,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 12
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:11:07.242688+00:00",
+     "duration": 33.573,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:10:24.497043+00:00",
+     "duration": 41.706,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:09:30.468012+00:00",
+     "duration": 53.589,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:09:11.732525+00:00",
+     "duration": 18.328,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 6
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:08:19.548519+00:00",
+     "duration": 52.07,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:07:25.021443+00:00",
+     "duration": 53.174,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 23
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:06:24.468674+00:00",
+     "duration": 59.697,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:05:54.593116+00:00",
+     "duration": 28.915,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:05:43.700554+00:00",
+     "duration": 10.147,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 22
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:05:03.632595+00:00",
+     "duration": 39.632,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:04:24.709922+00:00",
+     "duration": 38.527,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 19
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:03:58.200330+00:00",
+     "duration": 26.258,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 12
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:03:18.865098+00:00",
+     "duration": 38.542,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:02:58.500725+00:00",
+     "duration": 19.564,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:02:43.168419+00:00",
+     "duration": 15.145,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:02:21.258601+00:00",
+     "duration": 21.462,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:01:33.909065+00:00",
+     "duration": 46.519,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 23
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:00:51.309324+00:00",
+     "duration": 42.094,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 23
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:00:11.422570+00:00",
+     "duration": 39.398,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:00:00.337446+00:00",
+     "duration": 10.656,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 8
+     }
+    },
+    {
+     "timestamp": "2026-12-01T16:55:00.163341+00:00",
+     "duration": 89.837,
+     "data": {
+      "url": "https://calendar.google.com/calendar/u/0/r/week",
+      "title": "Google Calendar - Week of November 30, 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    }
+   ]
+  },
+  "aw-watcher-afk_host-a.example.net": {
+   "id": "aw-watcher-afk_host-a.example.net",
+   "created": "2026-11-30T08:00:00+00:00",
+   "type": "afkstatus",
+   "client": "aw-watcher-afk",
+   "hostname": "host-a.example.net",
+   "data": {},
+   "events": [
+    {
+     "timestamp": "2026-12-01T22:03:06.675058+00:00",
+     "duration": 600.0,
+     "data": {
+      "status": "afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T21:00:00.000000+00:00",
+     "duration": 3786.393,
+     "data": {
+      "status": "not-afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:33:26.877204+00:00",
+     "duration": 1800.0,
+     "data": {
+      "status": "afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T18:05:00.000000+00:00",
+     "duration": 1706.051,
+     "data": {
+      "status": "not-afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:39:22.161233+00:00",
+     "duration": 1500.0,
+     "data": {
+      "status": "afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T17:00:00.000000+00:00",
+     "duration": 2361.175,
+     "data": {
+      "status": "not-afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-01T16:55:00.000000+00:00",
+     "duration": 90.0,
+     "data": {
+      "status": "not-afk"
+     }
+    }
+   ]
+  },
+  "aw-watcher-window_host-b.example.net": {
+   "id": "aw-watcher-window_host-b.example.net",
+   "created": "2026-11-30T08:00:00+00:00",
+   "type": "currentwindow",
+   "client": "aw-watcher-window",
+   "hostname": "host-b.example.net",
+   "data": {},
+   "events": [
+    {
+     "timestamp": "2026-12-03T05:10:05.115966+00:00",
+     "duration": 114.884,
+     "data": {
+      "app": "Google Chrome",
+      "title": "r/programming"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:09:14.284948+00:00",
+     "duration": 50.739,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Funny Cat Compilation - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:06:54.502377+00:00",
+     "duration": 138.972,
+     "data": {
+      "app": "Google Chrome",
+      "title": "r/programming"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:06:10.297059+00:00",
+     "duration": 43.74,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Funny Cat Compilation - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:04:49.968854+00:00",
+     "duration": 79.881,
+     "data": {
+      "app": "Google Chrome",
+      "title": "r/programming"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:02:41.311532+00:00",
+     "duration": 128.008,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Funny Cat Compilation - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:00:00.000000+00:00",
+     "duration": 161.194,
+     "data": {
+      "app": "Google Chrome",
+      "title": "r/programming"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:19:18.118054+00:00",
+     "duration": 42.184,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Grouping Rows - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:17:23.812274+00:00",
+     "duration": 113.947,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:14:44.536196+00:00",
+     "duration": 159.093,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Aggregation Functions - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:13:55.774042+00:00",
+     "duration": 48.122,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:10:00.301615+00:00",
+     "duration": 234.865,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Aggregation Functions - YouTube"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:09:42.360949+00:00",
+     "duration": 17.639,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:09:23.195279+00:00",
+     "duration": 18.645,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:08:17.860792+00:00",
+     "duration": 64.407,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:07:21.379866+00:00",
+     "duration": 55.929,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:06:17.072552+00:00",
+     "duration": 63.901,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:05:28.911236+00:00",
+     "duration": 47.958,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:04:34.283862+00:00",
+     "duration": 54.211,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:04:09.053671+00:00",
+     "duration": 24.812,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:03:26.292081+00:00",
+     "duration": 42.109,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:02:47.461929+00:00",
+     "duration": 38.729,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:01:57.328170+00:00",
+     "duration": 50.056,
+     "data": {
+      "app": "Google Chrome",
+      "title": "GROUP BY with HAVING - Claude"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:01:11.349177+00:00",
+     "duration": 45.164,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:00:49.810994+00:00",
+     "duration": 21.494,
+     "data": {
+      "app": "Google Chrome",
+      "title": "61A Lecture Notes"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:00:00.000000+00:00",
+     "duration": 49.215,
+     "data": {
+      "app": "Google Chrome",
+      "title": "38-Aggregation.key"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:41:03.435770+00:00",
+     "duration": 40,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Commits \u00b7 group-42/proj5"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:40:02.569643+00:00",
+     "duration": 60,
+     "data": {
+      "app": "Terminal",
+      "title": "proj5 \u2014 git push \u2014 80\u00d724"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:39:36.235305+00:00",
+     "duration": 25.404,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Project 5B: World Generation | CS 61B Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:35:08.013045+00:00",
+     "duration": 267.989,
+     "data": {
+      "app": "IntelliJ IDEA",
+      "title": "proj5 \u2013 WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:34:26.004543+00:00",
+     "duration": 41.168,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Proj 5B Design Doc - Google Docs"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:33:19.399591+00:00",
+     "duration": 66.141,
+     "data": {
+      "app": "IntelliJ IDEA",
+      "title": "proj5 \u2013 WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:30:55.895187+00:00",
+     "duration": 142.978,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Project 5B: World Generation | CS 61B Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:26:25.433273+00:00",
+     "duration": 269.884,
+     "data": {
+      "app": "IntelliJ IDEA",
+      "title": "proj5 \u2013 WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:24:37.500819+00:00",
+     "duration": 107.687,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Proj 5B Design Doc - Google Docs"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:22:44.589956+00:00",
+     "duration": 112.643,
+     "data": {
+      "app": "IntelliJ IDEA",
+      "title": "proj5 \u2013 WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:18:23.593566+00:00",
+     "duration": 260.217,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Project 5B: World Generation | CS 61B Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:15:01.639469+00:00",
+     "duration": 201.28,
+     "data": {
+      "app": "IntelliJ IDEA",
+      "title": "proj5 \u2013 WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:10:01.222628+00:00",
+     "duration": 300,
+     "data": {
+      "app": "IntelliJ IDEA",
+      "title": "proj5 \u2013 Main.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:06:00.988432+00:00",
+     "duration": 240,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Proj 5B Design Doc - Google Docs"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:00:00.000000+00:00",
+     "duration": 360,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Project 5B: World Generation | CS 61B Fall 2026"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:23:47.679703+00:00",
+     "duration": 26.846,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Apply - Software Intern - Example Corp"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:22:58.072463+00:00",
+     "duration": 49.063,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Application for Software Engineer Intern at Sample Labs"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:20:53.919200+00:00",
+     "duration": 123.4,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Apply - Software Intern - Example Corp"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:18:48.442826+00:00",
+     "duration": 125.016,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Application for Software Engineer Intern at Sample Labs"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:18:06.401345+00:00",
+     "duration": 41.219,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Apply - Software Intern - Example Corp"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:16:51.122083+00:00",
+     "duration": 75.147,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Application for Software Engineer Intern at Sample Labs"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:14:14.525607+00:00",
+     "duration": 155.643,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Apply - Software Intern - Example Corp"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:13:41.404153+00:00",
+     "duration": 32.175,
+     "data": {
+      "app": "Google Chrome",
+      "title": "summer 2027 internship Jobs | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:13:04.749577+00:00",
+     "duration": 35.73,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:11:50.501499+00:00",
+     "duration": 73.913,
+     "data": {
+      "app": "Google Chrome",
+      "title": "summer 2027 internship Jobs | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:11:28.153220+00:00",
+     "duration": 22.091,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:10:29.486824+00:00",
+     "duration": 57.9,
+     "data": {
+      "app": "Google Chrome",
+      "title": "summer 2027 internship Jobs | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:13.579119+00:00",
+     "duration": 75.17,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:12.883540+00:00",
+     "duration": 0.323,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 24 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:11.329350+00:00",
+     "duration": 0.732,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 23 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:09.576822+00:00",
+     "duration": 0.788,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 22 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:08.477606+00:00",
+     "duration": 0.819,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 21 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:06.393647+00:00",
+     "duration": 1.245,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 20 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:04.236945+00:00",
+     "duration": 1.504,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 19 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:02.753571+00:00",
+     "duration": 0.751,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 18 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:00.479945+00:00",
+     "duration": 1.564,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 17 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:00.146603+00:00",
+     "duration": 0.279,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 16 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:58.675436+00:00",
+     "duration": 1.054,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 15 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:57.152478+00:00",
+     "duration": 0.571,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 14 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:55.363867+00:00",
+     "duration": 1.558,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 13 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:55.086980+00:00",
+     "duration": 0.209,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 12 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:53.230261+00:00",
+     "duration": 1.174,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 11 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:52.484498+00:00",
+     "duration": 0.519,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 10 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:51.592721+00:00",
+     "duration": 0.472,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 9 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:50.739441+00:00",
+     "duration": 0.546,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 8 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:49.110757+00:00",
+     "duration": 1.102,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 7 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:48.630541+00:00",
+     "duration": 0.202,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 6 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:47.435448+00:00",
+     "duration": 0.934,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 5 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:46.783492+00:00",
+     "duration": 0.553,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 4 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:44.823922+00:00",
+     "duration": 0.997,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 3 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:43.722619+00:00",
+     "duration": 0.319,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 2 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:42.523664+00:00",
+     "duration": 0.352,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 1 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:41.823744+00:00",
+     "duration": 0.548,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern 0 - Example Co | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:00.968281+00:00",
+     "duration": 40,
+     "data": {
+      "app": "Google Chrome",
+      "title": "summer 2027 internship Jobs | LinkedIn"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:07:49.901162+00:00",
+     "duration": 10.099,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:07:01.069479+00:00",
+     "duration": 47.983,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:05:56.902997+00:00",
+     "duration": 64.074,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:05:01.906911+00:00",
+     "duration": 54.87,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:04:12.664821+00:00",
+     "duration": 48.972,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:02:55.260072+00:00",
+     "duration": 76.655,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:02:28.590769+00:00",
+     "duration": 26.35,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:01:45.152775+00:00",
+     "duration": 43.298,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:01:19.340447+00:00",
+     "duration": 25.262,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:00:38.162164+00:00",
+     "duration": 41.059,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:00:00.000000+00:00",
+     "duration": 37.902,
+     "data": {
+      "app": "Google Chrome",
+      "title": "Job Search | Handshake"
+     }
+    }
+   ]
+  },
+  "aw-watcher-web-chrome_host-b.example.net": {
+   "id": "aw-watcher-web-chrome_host-b.example.net",
+   "created": "2026-11-30T08:00:00+00:00",
+   "type": "web.tab.current",
+   "client": "aw-client-web",
+   "hostname": "host-b.example.net",
+   "data": {},
+   "events": [
+    {
+     "timestamp": "2026-12-03T05:10:05.180234+00:00",
+     "duration": 114.82,
+     "data": {
+      "url": "https://www.reddit.com/r/programming/",
+      "title": "r/programming",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:09:14.460449+00:00",
+     "duration": 50.564,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=CaT123dOg45",
+      "title": "Funny Cat Compilation - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:06:54.839017+00:00",
+     "duration": 138.635,
+     "data": {
+      "url": "https://www.reddit.com/r/programming/",
+      "title": "r/programming",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:06:10.563671+00:00",
+     "duration": 43.473,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=CaT123dOg45",
+      "title": "Funny Cat Compilation - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:04:50.155078+00:00",
+     "duration": 79.695,
+     "data": {
+      "url": "https://www.reddit.com/r/programming/",
+      "title": "r/programming",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:02:41.580997+00:00",
+     "duration": 127.739,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=CaT123dOg45",
+      "title": "Funny Cat Compilation - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-03T05:00:00.063345+00:00",
+     "duration": 161.13,
+     "data": {
+      "url": "https://www.reddit.com/r/programming/",
+      "title": "r/programming",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:19:18.453531+00:00",
+     "duration": 41.848,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Zx9cVb2nMaS&list=PLx0sYbCqOb8T",
+      "title": "Grouping Rows - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:17:24.043536+00:00",
+     "duration": 113.715,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:14:44.654836+00:00",
+     "duration": 158.974,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Qw3rTy7uIoP&list=PLx0sYbCqOb8T",
+      "title": "Aggregation Functions - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:13:56.073351+00:00",
+     "duration": 47.823,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:10:00.520573+00:00",
+     "duration": 234.646,
+     "data": {
+      "url": "https://www.youtube.com/watch?v=Qw3rTy7uIoP&list=PLx0sYbCqOb8T",
+      "title": "Aggregation Functions - YouTube",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 6
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:09:42.674694+00:00",
+     "duration": 17.325,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:09:23.367060+00:00",
+     "duration": 18.473,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:08:17.941953+00:00",
+     "duration": 64.326,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 24
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:07:21.475357+00:00",
+     "duration": 55.834,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 6
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:06:17.270866+00:00",
+     "duration": 63.703,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:05:29.097992+00:00",
+     "duration": 47.771,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:04:34.643155+00:00",
+     "duration": 53.852,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:04:09.449555+00:00",
+     "duration": 24.416,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:03:26.565795+00:00",
+     "duration": 41.835,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:02:47.681156+00:00",
+     "duration": 38.51,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:01:57.442971+00:00",
+     "duration": 49.941,
+     "data": {
+      "url": "https://claude.ai/chat/3f2c9a1e-77b0-4d5e-9c1a-0b9e8d7f6a5c",
+      "title": "GROUP BY with HAVING - Claude",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:01:11.627252+00:00",
+     "duration": 44.886,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:00:49.990042+00:00",
+     "duration": 21.315,
+     "data": {
+      "url": "https://blank.page/?utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "61A Lecture Notes",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:00:00.052219+00:00",
+     "duration": 49.163,
+     "data": {
+      "url": "https://cs61a.org/assets/slides/38-Aggregation.pdf",
+      "title": "38-Aggregation.key",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:41:03.642960+00:00",
+     "duration": 39.793,
+     "data": {
+      "url": "https://github.com/group-42/proj5/commits/main",
+      "title": "Commits \u00b7 group-42/proj5",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 13
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:39:36.575079+00:00",
+     "duration": 25.064,
+     "data": {
+      "url": "https://fa26.datastructur.es/projects/proj5b/",
+      "title": "Project 5B: World Generation | CS 61B Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:34:26.363532+00:00",
+     "duration": 40.809,
+     "data": {
+      "url": "https://docs.google.com/document/d/1AbCdEfGhIjKlMnOpQrStUvWxYz0123456789/edit",
+      "title": "Proj 5B Design Doc - Google Docs",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 12
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:30:56.292544+00:00",
+     "duration": 142.581,
+     "data": {
+      "url": "https://fa26.datastructur.es/projects/proj5b/",
+      "title": "Project 5B: World Generation | CS 61B Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:24:37.704608+00:00",
+     "duration": 107.483,
+     "data": {
+      "url": "https://docs.google.com/document/d/1AbCdEfGhIjKlMnOpQrStUvWxYz0123456789/edit",
+      "title": "Proj 5B Design Doc - Google Docs",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:18:23.876115+00:00",
+     "duration": 259.934,
+     "data": {
+      "url": "https://fa26.datastructur.es/projects/proj5b/",
+      "title": "Project 5B: World Generation | CS 61B Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 8
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:06:01.378673+00:00",
+     "duration": 239.61,
+     "data": {
+      "url": "https://docs.google.com/document/d/1AbCdEfGhIjKlMnOpQrStUvWxYz0123456789/edit",
+      "title": "Proj 5B Design Doc - Google Docs",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:00:00.083748+00:00",
+     "duration": 359.916,
+     "data": {
+      "url": "https://fa26.datastructur.es/projects/proj5b/",
+      "title": "Project 5B: World Generation | CS 61B Fall 2026",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:23:47.766530+00:00",
+     "duration": 26.759,
+     "data": {
+      "url": "https://careers.examplecorp.com/apply/req-20931?src=linkedin",
+      "title": "Apply - Software Intern - Example Corp",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:22:58.134315+00:00",
+     "duration": 49.001,
+     "data": {
+      "url": "https://boards.greenhouse.io/samplelabs/jobs/5512345678?gh_src=xyz123",
+      "title": "Job Application for Software Engineer Intern at Sample Labs",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 22
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:20:54.148360+00:00",
+     "duration": 123.171,
+     "data": {
+      "url": "https://careers.examplecorp.com/apply/req-20931?src=linkedin",
+      "title": "Apply - Software Intern - Example Corp",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:18:48.607556+00:00",
+     "duration": 124.851,
+     "data": {
+      "url": "https://boards.greenhouse.io/samplelabs/jobs/5512345678?gh_src=xyz123",
+      "title": "Job Application for Software Engineer Intern at Sample Labs",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:18:06.777215+00:00",
+     "duration": 40.843,
+     "data": {
+      "url": "https://careers.examplecorp.com/apply/req-20931?src=linkedin",
+      "title": "Apply - Software Intern - Example Corp",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:16:51.322561+00:00",
+     "duration": 74.946,
+     "data": {
+      "url": "https://boards.greenhouse.io/samplelabs/jobs/5512345678?gh_src=xyz123",
+      "title": "Job Application for Software Engineer Intern at Sample Labs",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:14:14.613148+00:00",
+     "duration": 155.555,
+     "data": {
+      "url": "https://careers.examplecorp.com/apply/req-20931?src=linkedin",
+      "title": "Apply - Software Intern - Example Corp",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 19
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:13:41.662602+00:00",
+     "duration": 31.917,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?keywords=summer%202027%20internship",
+      "title": "summer 2027 internship Jobs | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:13:05.050400+00:00",
+     "duration": 35.43,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/view/4123456789/?refId=Q1w2E3r4T5y6U7i8",
+      "title": "Software Engineering Intern | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:11:50.670173+00:00",
+     "duration": 73.744,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?keywords=summer%202027%20internship",
+      "title": "summer 2027 internship Jobs | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 13
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:11:28.225123+00:00",
+     "duration": 22.019,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/view/4123456789/?refId=Q1w2E3r4T5y6U7i8",
+      "title": "Software Engineering Intern | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 6
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:10:29.623629+00:00",
+     "duration": 57.763,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?keywords=summer%202027%20internship",
+      "title": "summer 2027 internship Jobs | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:13.696678+00:00",
+     "duration": 75.053,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/view/4123456789/?refId=Q1w2E3r4T5y6U7i8",
+      "title": "Software Engineering Intern | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:13.180380+00:00",
+     "duration": 0.026,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4058042367&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 24 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:11.648406+00:00",
+     "duration": 0.413,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4027837083&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 23 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:09.936632+00:00",
+     "duration": 0.428,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4047173083&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 22 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 22
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:08.565741+00:00",
+     "duration": 0.731,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4044519683&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 21 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:06.454810+00:00",
+     "duration": 1.184,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4070437138&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 20 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:04.402180+00:00",
+     "duration": 1.339,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4010651678&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 19 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 10
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:03.117930+00:00",
+     "duration": 0.386,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4024710131&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 18 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 15
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:00.579614+00:00",
+     "duration": 1.464,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4003171392&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 17 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 6
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:09:00.404784+00:00",
+     "duration": 0.021,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4089294283&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 16 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:59.039203+00:00",
+     "duration": 0.69,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4066540415&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 15 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:57.513745+00:00",
+     "duration": 0.21,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4029721551&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 14 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 8
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:55.522968+00:00",
+     "duration": 1.399,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4066531138&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 13 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:55.239219+00:00",
+     "duration": 0.057,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4026585799&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 12 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:53.531677+00:00",
+     "duration": 0.873,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4004576478&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 11 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:52.683011+00:00",
+     "duration": 0.32,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4034528332&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 10 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:51.952418+00:00",
+     "duration": 0.112,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4002924253&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 9 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:51.125656+00:00",
+     "duration": 0.16,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4073417397&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 8 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:49.470078+00:00",
+     "duration": 0.743,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4042460721&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 7 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:48.868658+00:00",
+     "duration": 0.0,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4080673028&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 6 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 19
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:47.689460+00:00",
+     "duration": 0.68,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4040312198&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 5 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:47.056194+00:00",
+     "duration": 0.28,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4084083747&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 4 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 8
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:44.887079+00:00",
+     "duration": 0.934,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4031215933&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 3 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:44.044521+00:00",
+     "duration": 0.0,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4061381128&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 2 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 5
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:42.862552+00:00",
+     "duration": 0.014,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4091546565&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 1 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:41.911910+00:00",
+     "duration": 0.46,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4060257105&keywords=summer%202027%20internship&eBP=CwEAAAGXyZ",
+      "title": "Software Engineering Intern 0 - Example Co | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 9
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:08:01.043879+00:00",
+     "duration": 39.924,
+     "data": {
+      "url": "https://www.linkedin.com/jobs/search/?keywords=summer%202027%20internship&utm_source=newsletter&trackingId=Zx81kQ0pLm2Vb7Yt&refId=a1b2c3d4e5f6g7h8",
+      "title": "summer 2027 internship Jobs | LinkedIn",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 21
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:07:50.099982+00:00",
+     "duration": 9.9,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:07:01.275529+00:00",
+     "duration": 47.777,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 14
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:05:57.254998+00:00",
+     "duration": 63.722,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 11
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:05:02.157909+00:00",
+     "duration": 54.619,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 16
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:04:12.898280+00:00",
+     "duration": 48.738,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:02:55.380822+00:00",
+     "duration": 76.534,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 5
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:02:28.760453+00:00",
+     "duration": 26.18,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 7
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:01:45.468512+00:00",
+     "duration": 42.983,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 18
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:01:19.565659+00:00",
+     "duration": 25.037,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 20
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:00:38.407227+00:00",
+     "duration": 40.813,
+     "data": {
+      "url": "https://app.joinhandshake.com/jobs/98765432?searchId=abcd1234efgh5678",
+      "title": "Software Engineering Intern - Summer 2027 | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 17
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:00:00.308561+00:00",
+     "duration": 37.593,
+     "data": {
+      "url": "https://app.joinhandshake.com/stu/postings?page=1&per_page=25&sort_direction=desc&query=software%20intern",
+      "title": "Job Search | Handshake",
+      "audible": false,
+      "incognito": false,
+      "tabCount": 25
+     }
+    }
+   ]
+  },
+  "aw-watcher-afk_host-b.example.net": {
+   "id": "aw-watcher-afk_host-b.example.net",
+   "created": "2026-11-30T08:00:00+00:00",
+   "type": "afkstatus",
+   "client": "aw-watcher-afk",
+   "hostname": "host-b.example.net",
+   "data": {},
+   "events": [
+    {
+     "timestamp": "2026-12-03T05:00:00.000000+00:00",
+     "duration": 720.0,
+     "data": {
+      "status": "not-afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-03T04:00:00.000000+00:00",
+     "duration": 1200.302,
+     "data": {
+      "status": "not-afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:41:44.210768+00:00",
+     "duration": 1800.0,
+     "data": {
+      "status": "afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:00:00.000000+00:00",
+     "duration": 2503.436,
+     "data": {
+      "status": "not-afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:24:14.790498+00:00",
+     "duration": 2400.0,
+     "data": {
+      "status": "afk"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T18:00:00.000000+00:00",
+     "duration": 1454.526,
+     "data": {
+      "status": "not-afk"
+     }
+    }
+   ]
+  },
+  "aw-watcher-jetbrains_host-b.example.net": {
+   "id": "aw-watcher-jetbrains_host-b.example.net",
+   "created": "2026-11-30T08:00:00+00:00",
+   "type": "app.editor.activity",
+   "client": "aw-watcher-jetbrains",
+   "hostname": "host-b.example.net",
+   "data": {},
+   "events": [
+    {
+     "timestamp": "2026-12-02T23:35:08.013045+00:00",
+     "duration": 267.989,
+     "data": {
+      "project": "proj5",
+      "language": "Java",
+      "file": "WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:33:19.399591+00:00",
+     "duration": 66.141,
+     "data": {
+      "project": "proj5",
+      "language": "Java",
+      "file": "WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:26:25.433273+00:00",
+     "duration": 269.884,
+     "data": {
+      "project": "proj5",
+      "language": "Java",
+      "file": "WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:22:44.589956+00:00",
+     "duration": 112.643,
+     "data": {
+      "project": "proj5",
+      "language": "Java",
+      "file": "WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:15:01.639469+00:00",
+     "duration": 201.28,
+     "data": {
+      "project": "proj5",
+      "language": "Java",
+      "file": "WorldGenerator.java"
+     }
+    },
+    {
+     "timestamp": "2026-12-02T23:10:01.222628+00:00",
+     "duration": 300,
+     "data": {
+      "project": "proj5",
+      "language": "Java",
+      "file": "Main.java"
+     }
+    }
+   ]
+  }
+ }
+}

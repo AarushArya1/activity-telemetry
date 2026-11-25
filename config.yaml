@@ -1,0 +1,93 @@
+# Workflow reconstruction config. Every value here is recorded inside each MethodRun.
+# Nothing in this file may be derived from the task log (ground truth).
+
+timezone: America/Los_Angeles
+
+paths:
+  export: data/aw-buckets-export.json
+  task_log: data/task_log.csv          # display / scoring only, never method input
+  cache_dir: .cache
+  runs_dir: outputs/runs
+  redact_terms_file: data/redact_terms.txt   # optional: one name/term per line, scrubbed as <PERSON>
+
+# Stage 2 — which window the methods see.
+#   day          : one local calendar day (default; one export download per day)
+#   session      : continuous activity split by gaps >= session_gap_min
+#   padded_task  : logged task ± padding_min (DEBUG ONLY — leaks rough boundaries)
+window:
+  mode: day
+  session_gap_min: 20
+  padding_min: 20
+
+# Stage 3 — cleaning and merging.
+clean:
+  afk_mask: true
+  idle_apps: [loginwindow, ScreenSaverEngine]
+  browser_apps: [Google Chrome, Chrome]
+  drop_incognito: true
+  merge_gap_s: 5          # same-key events closer than this merge into one segment
+  min_segment_s: 2        # shorter segments are absorbed into a same-app neighbour or dropped
+  token_path_depth: 1     # token = domain (+ first meaningful path segment), e.g. linkedin.com/jobs
+  url_param_allowlist: [q, query, keywords, search_query, k, search]
+  app_aliases:
+    Code: VS Code
+    Visual Studio Code: VS Code
+    idea: IntelliJ IDEA
+    Chrome: Google Chrome
+
+# Stage 4 — redaction (required before any LLM call).
+redact:
+  use_presidio: auto       # auto = use if installed; true = require; false = regex only
+  chat_apps: [Messages, WhatsApp, Telegram, Signal, Discord, FaceTime, Contacts, Messenger]
+  chat_url_prefixes:
+    - instagram.com/direct
+    - linkedin.com/messaging
+    - web.whatsapp.com
+    - messenger.com
+    - facebook.com/messages
+    - discord.com/channels
+  id_min_len: 12           # alnum path/query tokens at least this long (with a digit) become <ID>
+
+# Method A — sequence / process mining (deterministic).
+sequence_mining:
+  idle_split_s: 300            # hard task boundary on gaps >= this
+  interruption_max_s: 150      # label runs shorter than this are absorbed as interruptions
+  ambiguous_absorb_max_s: 900  # ambiguous runs (YouTube, Claude, unknown sites) shorter than this inherit context
+  changepoint_window_s: 300    # Jaccard change-point window (each side)
+  changepoint_threshold: 0.15  # split a same-label run where token-set similarity drops below this...
+  changepoint_min_gap_s: 60    # ...but only at a pause in activity at least this long
+  min_task_s: 180
+  step_bin_s: 60
+  step_similarity: 0.5         # adjacent bins with token Jaccard >= this belong to one step
+  step_context_s: 120          # bins are compared with this much context on each side
+  step_token_min_share: 0.12   # tokens below this share of a step's time are left out of its name
+  min_step_s: 60
+  max_steps: 5
+  repeat_threshold: 0.6
+  continuation_gap_s: 1200     # same-label tasks this close with similar tokens count as a continuation
+  prefixspan_min_support: 2
+  use_history: true            # compare against this method's earlier runs for repeats
+
+# Method B — LLM workflow inference.
+# API keys are read from the environment / the gitignored .env file, never from here.
+llm:
+  provider: gemini             # gemini | anthropic
+  prompt_version: v1
+  max_segments_per_chunk: 600
+  chunk_overlap_segments: 20
+  chunk_gap_min: 20            # chunks prefer to split at gaps this long
+  boundary_merge_gap_s: 120
+  history_tasks: 30            # earlier-run summaries shown to the model for repeat detection
+  cache: true
+  gemini:                      # key: GEMINI_API_KEY
+    model: gemini-3.8-flash
+    temperature: null          # null = model default; Google advises against lowering it on Gemini 3+
+    seed: 0                    # best-effort reproducibility; the response cache guarantees it
+    max_tokens: 65536
+    retry_attempts: 5          # backoff on 429/5xx (free-tier quotas are tight)
+  anthropic:                   # key: ANTHROPIC_API_KEY
+    model: claude-opus-5-5
+    effort: high
+    temperature: null          # current Claude models reject sampling params
+    max_tokens: 64000
+    server_fallbacks: true     # server-side refusal fallback

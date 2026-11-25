@@ -1,0 +1,20 @@
+# --- Personal data: never commit (PROJECT_CONTEXT.md §5) ---
+data/
+outputs/
+.cache/
+*.parquet
+aw-buckets-export*.json
+task_log*.csv
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.DS_Store

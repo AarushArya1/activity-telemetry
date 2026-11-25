@@ -1,0 +1,11 @@
+Task ID,Date,Label,Start,End,Minutes,Steps,Apps / sites,Repeat of (Task ID),Interrupted?,Notes,Later correction
+F01,2026-12-01,CS 61A Notes/Homework,09:00,09:39,,,,,TRUE,,
+F02,2026-12-01,Internship application,10:05,10:29,,,,,FALSE,,
+F03,2026-12-01,Email / Slack / Social Media,10:29,10:33,,,,,FALSE,,
+F04,2026-12-01,CS 61A Notes/Homework,13:00,13:38,,,,,FALSE,,
+F05,2026-12-01,Entertainment,13:38,13:45,,,,,FALSE,,
+F06,2026-12-01,CS 61A Notes/Homework,13:45,14:00,,,,,FALSE,Continuation of F04,
+F07,2026-12-02,Internship application,10:00,10:24,,,,F02,FALSE,,
+F08,2026-12-02,CS 61B Homework/Projects,15:00,15:41,,,,,FALSE,,
+F09,2026-12-02,CS 61A Notes/Homework,20:00,20:20,,,,F01,FALSE,,
+F10,2026-12-02,Entertainment,21:00,21:12,,,,,FALSE,,
