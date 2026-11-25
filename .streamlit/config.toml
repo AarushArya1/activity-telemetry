@@ -1,0 +1,6 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+address = "localhost"   # personal data: don't expose the app to the local network
+maxUploadSize = 1024   # MB; the ActivityWatch export is cumulative and grows over time

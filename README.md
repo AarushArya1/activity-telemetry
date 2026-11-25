@@ -8,7 +8,7 @@ See `PROJECT_CONTEXT.md` (the full brief) and `METHODS_INFO_CONTEXT.md` (what th
 
 ```bash
 python3 -m venv .venv
-.venv/bin/pip install -e ".[dev,mining]"     # mining = pm4py (optional; a built-in DFG is used without it)
+.venv/bin/pip install -e ".[app,mining]"     # app = Streamlit; mining = pm4py (optional)
 cp .env.example .env                         # then put your key in .env (gitignored)
 ```
 
@@ -23,7 +23,17 @@ describe your activity — consider a paid tier, or adding names to `data/redact
 Put real data under `data/` (gitignored): `data/aw-buckets-export.json`, optionally `data/task_log.csv`,
 and optionally `data/redact_terms.txt` (names to scrub, one per line).
 
-## Usage
+## Demo app
+
+```bash
+.venv/bin/streamlit run app/streamlit_app.py
+```
+
+Opens at http://localhost:8501 (bound to localhost only). Upload an export (or use the synthetic
+sample), pick a day and a method, press **Run**. The two buttons at the top explain the project and
+its core concepts.
+
+## Usage (CLI)
 
 ```bash
 python -m workflow_recon inspect                       # bucket ids, counts, data keys, time ranges
@@ -58,6 +68,7 @@ src/workflow_recon/
     baseline.py          per-segment rule labels, no smoothing or steps
   llm/           vendor-neutral provider interface, Gemini + Anthropic providers, on-disk response cache
   io.py, pipeline.py, cli.py
+app/streamlit_app.py             demo UI (app/explainers.py holds the popup text)
 scripts/make_fake_data.py        synthetic export + task log in tests/fixtures/
 tests/                           pytest suite (synthetic data only)
 ```
