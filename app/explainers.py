@@ -15,6 +15,8 @@ reconstruct the **workflow**: what tasks happened, when each started and ended, 
 1. Upload an ActivityWatch export (about a day of data).
 2. Pick a method.
 3. See the workflow it reconstructs: tasks, labels, time ranges and steps.
+4. Optionally open **Patterns across days**: all saved days are pooled per label to show how many
+   different ways the same kind of task gets done, and which way is most common.
 
 ### What the methods can see
 - The **cleaned, redacted activity** for the day: one line per "segment" with a start/end time,
@@ -35,6 +37,9 @@ Given a whole day, each method should:
 - **cite evidence**: every step points to the activity segments it came from,
 - notice **repeats**: the same workflow done again, or the same task resumed after a break.
 
+Across many days, the **Patterns** tab turns those results into a picture of your routine workflows:
+for each label, the distinct step orders ("variants") and how often each one happens.
+
 Later, both methods get scored against the hand-logged tasks, to see which reconstructs workflows better.
 """
 
@@ -43,6 +48,7 @@ CORE_CONCEPTS = """
 
 ```
 ActivityWatch JSON → 1 Load → 2 Pick window → 3 Clean & merge → 4 Redact → Method A or B → workflow
+                                                     saved workflows from many days → Patterns tab
 ```
 
 | Stage | What happens | Code |
@@ -71,6 +77,12 @@ Deterministic: the same input always gives the same output, and every decision i
    (how many insert/delete/replace operations turn one sequence into the other) plus site-mix similarity.
 
 Code: `methods/sequence_mining.py`, `methods/common.py`, `labels.py`
+
+**Across days (the "Patterns" tab).** All saved tasks with the same label are pooled into one
+**event log** (case = task, activity = a step's main sites, ordered by time). PM4Py then lists the
+**variants**, the distinct orders in which those tasks were done and how often each occurred, and draws a
+directly-follows graph for the label. Few variants that cover most tasks = a routine, automatable workflow.
+Code: `patterns.py`
 
 ---
 
@@ -107,10 +119,112 @@ evidence IDs) → each `Step` (description, start, end, evidence IDs). Defined w
 | Python, **pandas**, NumPy | Event tables, interval maths |
 | **PyArrow / Parquet** | Caching the parsed export |
 | **Pydantic** | Output schema and validation of LLM JSON |
-| **PM4Py** | Directly-follows graphs (process mining) |
+| **PM4Py** | Directly-follows graphs and variants (process mining, per day and across days) |
 | PrefixSpan (own implementation) | Frequent sequential patterns |
 | **Google Gemini** (`google-genai`) / Anthropic Claude | LLM method, via structured JSON output |
 | Regex + optional **Presidio** | Redaction |
 | **Streamlit** + **Altair** | This demo app and its timeline chart |
 | **pytest** | Tests on synthetic data (`scripts/make_fake_data.py`) |
+"""
+
+BENCHMARK_PLAN = """
+*Summary of `BENCHMARK_PLAN.md`. The plan is still a draft and may change; nothing here is built yet.*
+
+### What the benchmark is for
+Compare the **sequence-mining** method, the **LLM** method and a simple **baseline** (label each
+stretch of activity by its main app or website: no task splitting, no steps) against the hand-written
+task log, and answer the questions Orcapo would ask. Every result is read as
+**"how much better than the baseline?"**
+
+### Ground rules
+- **Only score what can be checked.** The task log doesn't cover every minute, so predictions in
+  unlogged time are ignored, except inside **fully logged blocks** where every minute has a label.
+- **Meaning over wording.** "Code in IntelliJ" can match a logged step written differently.
+- **Same input for everyone.** Each method gets the same cleaned, redacted day plus the label list.
+  Nobody sees the answers.
+
+### The data
+| Set | Tasks | Used for |
+|---|---|---|
+| Development | T01–T17 (Nov 18–23) | Building and tuning. Scores shown for reference only (they flatter the methods) |
+| **Test** | Tasks logged *after* the methods are frozen | **The headline results** |
+
+- **Freeze first:** the code, prompt and settings of each method are committed (and the commit
+  hash recorded) *before* anyone looks at the test data.
+- **Still to log for the test set:** normal tasks with steps; **2–3 fully logged blocks** of 2–3 hours
+  where *every* minute gets a row (including breaks and games), marked `FULL BLOCK START` / `END` in
+  Notes; and at least one more instance of each repeated workflow (internship application,
+  61A lecture review, 61A homework, 61B project).
+
+---
+
+### The five benchmarks, most important first
+
+**1 · B4 Step recovery: "Does it reconstruct *how* I did the task?"**
+Steps are the actual product: they show which parts of a workflow an AI tool could take over.
+For each task that was found, predicted steps are matched to logged steps by meaning, using an **LLM
+judge** (fixed prompt, checked by hand on ~10 tasks; if it disagrees more than ~1 in 5 times, the
+prompt gets fixed first).
+- *Step recall*: share of the real steps that some predicted step covers.
+- *Step precision*: share of predicted steps that match a real step.
+- Example: 1 predicted step covering 1 of 5 real steps → recall 0.20, precision 1.00.
+
+**2 · B5 Repeat detection: "Does it notice when I do the same workflow again?"**
+Only workflows that recur are worth automating. Scored on **pairs** of tasks: if T03, T05 and T08 are
+the same workflow, the true pairs are T03–T05, T03–T08 and T05–T08. The method's "repeat of" links
+produce its own pairs. *Pair precision* and *pair recall*. Resuming a task after a break
+(a continuation) does **not** count as a repeat.
+
+**3 · B3 Invented tasks: "Does it make things up?"**
+A made-up workflow in a client report damages trust, so this matters more than catching everything.
+Checked only inside the fully logged blocks. A predicted task is **correct** if at least half of it
+overlaps a logged task with the same label; otherwise it's **invented**.
+- *Task precision* and *invented tasks per hour*.
+- Also reported with low-confidence tasks removed (one threshold, chosen on the dev set and then
+  fixed), e.g. Minecraft time that was labeled as 61B work at confidence 0.03.
+
+**4 · B1 Label accuracy: "Does it know what I was doing?"**
+Logged time is cut into **1-minute slots**; each slot is right if the predicted label matches.
+- *Accuracy*: share of logged minutes labeled correctly.
+- *Macro-F1*: the same idea averaged per label, so short tasks count as much as long ones.
+- Plus a **confusion matrix** (which labels get mistaken for which).
+- The cleanest single number, and it doesn't punish a method for splitting time into many tasks.
+
+**5 · B2 Task detection: "Does it find each task?"**
+Each logged task is matched to the same-label prediction that overlaps it most. It counts as found if the
+overlap is at least half of the combined time span (**IoU ≥ 0.5**).
+- *Task recall*: share of logged tasks found. B4 and B5 depend on these matches.
+- *Boundary error* (minutes off at start and end) goes in the appendix, since exact minutes don't change
+  any recommendation.
+
+---
+
+### Pass/fail guardrails
+| Check | Applies to | Pass if |
+|---|---|---|
+| **Invalid citations**: steps pointing to segments that don't exist or lie outside the task | LLM | 0 after validation (report how many were dropped) |
+| **Redaction leaks**: a hand-made list of sensitive strings (contact names, emails, order IDs) searched for in everything sent to the LLM and every output | Both | **0 leaks**. A hard requirement: no company will run this otherwise |
+| **Cost**: runtime per day, LLM tokens and dollars | Both | Reported, no threshold |
+
+---
+
+### What the final write-up shows
+1. **Workflow inventory (first):** one table per method with one row per real repeated workflow:
+   how many real instances, whether the method found it as a repeated workflow (✓ if at least 2
+   instances are found *and* linked), how many instances it linked, average step recall,
+   **number of variants** (how many different step orders the workflow was done in, true vs. predicted,
+   as in the *Patterns across days* tab), and total time (true vs. predicted). Under it: any **invented** recurring workflows.
+   This is the view Orcapo would hand a client: *"these are your recurring workflows, how you do them,
+   and how long they take."*
+2. **One metrics table** (test set only, columns in priority order): baseline, sequence mining, and the
+   LLM, each with and without the confidence filter. Dev-set numbers go in an appendix.
+3. A confusion matrix per method, and **2–3 worked examples** in this demo: a clear success, an invented
+   task, and a step-by-step comparison.
+
+### How scoring will work (later)
+A scoring script reads **only** `task_log.csv` and the saved runs in `outputs/runs/`. It converts all
+times to UTC and fails loudly on any label not in the taxonomy. It checks that fully logged blocks have
+no unlogged gaps over 2 minutes. It writes `results/<date>_summary.json` plus a per-task CSV so every
+number can be traced back. Each method is run once per config, with LLM answers cached so results are
+reproducible.
 """

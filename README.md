@@ -41,6 +41,8 @@ python -m workflow_recon run -v                        # most recent day, all me
 python -m workflow_recon run --date 2026-11-23 -v
 python -m workflow_recon run --all-days --methods sequence_mining,baseline
 python -m workflow_recon run --mode session            # session windows instead of whole days
+python -m workflow_recon patterns                      # variants + DFG per label over all saved runs
+python -m workflow_recon patterns --method llm --level sites --label "CS 61A Notes/Homework"
 
 # synthetic data (no real personal data):
 python scripts/make_fake_data.py
@@ -50,6 +52,14 @@ python -m workflow_recon run --export tests/fixtures/fake_export.json --all-days
 Runs are saved to `outputs/runs/<method>/<window_id>.json` (common schema, `schema.py`) with a
 `.sidecar.json` next to them (mined patterns / DFGs, or LLM usage per chunk). Run days oldest-first
 (`--all-days`) so repeat detection can use each method's own earlier results.
+
+### Patterns across days
+
+`patterns` pools every saved run of one method into **one PM4Py event log per label** (case = predicted
+task, activity = a step's main site(s), or every site switch with `--level sites`) and reports the
+**variants** (distinct step orders, how many tasks followed each) and a directly-follows graph. It reads
+only the method's own runs, never the task log. Output: terminal summary + `outputs/patterns/<method>_<level>.json`;
+in the app, the **Patterns across days** tab.
 
 ## Layout
 
@@ -66,6 +76,7 @@ src/workflow_recon/
     sequence_mining.py   Method A: label resolution, change points, steps, DFG, PrefixSpan, repeats
     llm_inference.py     Method B: render -> chunk -> structured output -> citation validation -> merge
     baseline.py          per-segment rule labels, no smoothing or steps
+  patterns.py    cross-day process mining: one event log per label, variants, DFG (PM4Py)
   llm/           vendor-neutral provider interface, Gemini + Anthropic providers, on-disk response cache
   io.py, pipeline.py, cli.py
 app/streamlit_app.py             demo UI (app/explainers.py holds the popup text)

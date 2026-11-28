@@ -8,6 +8,7 @@ paths:
   task_log: data/task_log.csv          # display / scoring only, never method input
   cache_dir: .cache
   runs_dir: outputs/runs
+  patterns_dir: outputs/patterns
   redact_terms_file: data/redact_terms.txt   # optional: one name/term per line, scrubbed as <PERSON>
 
 # Stage 2 — which window the methods see.

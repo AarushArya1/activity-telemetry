@@ -77,3 +77,29 @@ def test_bad_upload_shows_error():
     at.sidebar.checkbox[0].uncheck().run()
     assert not at.exception, at.exception
     assert any("Could not read this file" in e.value for e in at.sidebar.error)
+
+
+def test_patterns_tab_runs_all_days(monkeypatch, tmp_path):
+    import workflow_recon.config as wc
+
+    real = wc.load_config
+    monkeypatch.setattr(wc, "load_config", lambda *a, **k: real(overrides={
+        "paths": {"runs_dir": str(tmp_path / "runs"), "patterns_dir": str(tmp_path / "patterns"),
+                  "cache_dir": str(tmp_path / "cache")}, "redact": {"use_presidio": False}}))
+    at = _app()
+    assert any("No saved sequence mining runs" in i.value for i in at.info)
+    btn = next(b for b in at.button if b.label.startswith("Run & save"))
+    btn.click().run()
+    assert not at.exception, at.exception
+    heads = [e.label for e in at.expander]
+    assert any("Internship application" in h and "2 task(s)" in h and "1 variant(s)" in h for h in heads)
+    assert (tmp_path / "patterns" / "sequence_mining_steps.json").exists()
+    assert (tmp_path / "runs" / "sequence_mining" / "2026-12-02.sidecar.json").exists()
+
+
+def test_benchmark_popup_opens():
+    at = _app()
+    assert at.button[2].label == "📏 Benchmark plan"
+    at.button[2].click().run()
+    assert not at.exception, at.exception
+    assert any("The five benchmarks" in m.value for m in at.markdown)

@@ -19,6 +19,7 @@ from .llm.cache import CachedProvider
 from .methods.baseline import run_baseline
 from .methods.llm_inference import run_llm
 from .methods.sequence_mining import run_sequence_mining
+from .patterns import task_traces
 from .redact import RedactionResult, redact_segments
 from .schema import MethodRun
 from .windows import Window, slice_events
@@ -85,6 +86,8 @@ def run_methods(prepared: PreparedWindow, cfg: dict, methods: Iterable[str] = AL
         run.params["preprocess"] = {"clean_stats": prepared.clean.stats,
                                     "redaction": prepared.redaction.report}
         if save:
+            # traces feed cross-day pattern mining (patterns.py); built from redacted segments
+            sidecar = {**(sidecar or {}), "traces": task_traces(run, segs)}
             save_run(run, runs_dir, sidecar)
         results[m] = run
     return results

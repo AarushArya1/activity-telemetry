@@ -3,6 +3,7 @@
   python -m workflow_recon inspect [--export PATH]
   python -m workflow_recon run [--export PATH] [--date YYYY-MM-DD | --all-days]
                                [--methods sequence_mining,llm,baseline] [--mode day|session]
+  python -m workflow_recon patterns [--method sequence_mining] [--level steps|sites] [--label L]
 """
 
 from __future__ import annotations
@@ -12,6 +13,7 @@ import sys
 
 from .config import load_config, resolve_path
 from .llm import LLMConfigError
+from .patterns import LEVELS, mine_patterns, save_patterns, summarize_text
 from .load import inspect_export, load_events, load_task_log, read_export
 from .pipeline import ALL_METHODS, make_provider, prepare_window, private_intervals, run_methods
 from .windows import select_windows
@@ -59,6 +61,18 @@ def _cmd_run(args, cfg) -> int:
     return 0
 
 
+def _cmd_patterns(args, cfg) -> int:
+    res = mine_patterns(resolve_path(cfg, "runs_dir"), args.method, args.level,
+                        labels=[args.label] if args.label else None)
+    if not res["tasks"]:
+        print(f"no saved {args.method} runs with traces yet: run `workflow_recon run --all-days "
+              f"--methods {args.method}` first")
+        return 1
+    print(summarize_text(res, top=args.top))
+    print(f"\nsaved {save_patterns(res, resolve_path(cfg, 'patterns_dir'))}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="workflow_recon")
     ap.add_argument("--config", default=None)
@@ -73,10 +87,15 @@ def main(argv: list[str] | None = None) -> int:
     p_r.add_argument("--mode", choices=["day", "session"], help="override window.mode")
     p_r.add_argument("--no-save", action="store_true")
     p_r.add_argument("-v", "--verbose", action="store_true", help="print steps")
+    p_p = sub.add_parser("patterns", help="variants + DFG per label across all saved runs")
+    p_p.add_argument("--method", default="sequence_mining", choices=list(ALL_METHODS))
+    p_p.add_argument("--level", default="steps", choices=list(LEVELS))
+    p_p.add_argument("--label", help="only this label")
+    p_p.add_argument("--top", type=int, default=5, help="variants to print per label")
     args = ap.parse_args(argv)
     cfg = load_config(args.config)
     try:
-        return {"inspect": _cmd_inspect, "run": _cmd_run}[args.cmd](args, cfg)
+        return {"inspect": _cmd_inspect, "run": _cmd_run, "patterns": _cmd_patterns}[args.cmd](args, cfg)
     except LLMConfigError as e:
         print(f"error: {e}", file=sys.stderr)
         return 2

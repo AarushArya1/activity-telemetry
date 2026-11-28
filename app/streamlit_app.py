@@ -22,11 +22,12 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from explainers import CORE_CONCEPTS, PROJECT_OVERVIEW  # noqa: E402
-from workflow_recon.config import load_config  # noqa: E402
+from explainers import BENCHMARK_PLAN, CORE_CONCEPTS, PROJECT_OVERVIEW  # noqa: E402
+from workflow_recon.config import load_config, resolve_path  # noqa: E402
 from workflow_recon.llm import LLMConfigError, provider_settings  # noqa: E402
 from workflow_recon.load import flatten_export  # noqa: E402
 from workflow_recon.methods.llm_inference import PrivacyError  # noqa: E402
+from workflow_recon.patterns import mine_patterns, save_patterns, to_dot, variant_text  # noqa: E402
 from workflow_recon.pipeline import make_provider, prepare_window, run_methods  # noqa: E402
 from workflow_recon.windows import available_days, day_window  # noqa: E402
 
@@ -58,6 +59,11 @@ def show_overview() -> None:
 @st.dialog("Core concepts & code", width="large")
 def show_concepts() -> None:
     st.markdown(CORE_CONCEPTS)
+
+
+@st.dialog("Benchmark plan (draft)", width="large")
+def show_benchmark() -> None:
+    st.markdown(BENCHMARK_PLAN)
 
 
 # ------------------------------------------------------------ rendering
@@ -136,6 +142,77 @@ def show_run(run, prep) -> None:
                        file_name=f"{run.method}_{prep.window.window_id}.json", mime="application/json")
 
 
+LEVEL_HELP = {"steps": "One activity per step (its main sites). Best for comparing how tasks are done.",
+              "sites": "Every switch between sites. Very detailed; almost every task becomes its own variant."}
+
+
+def run_all_days(raw_id, days, events, cfg, method, method_label) -> None:
+    """Run `method` on every day (oldest first, so repeat detection sees earlier days) and save."""
+    provider = make_provider(cfg) if method == "llm" else None
+    bar = st.progress(0.0, text=f"Running {method_label.lower()} on {len(days)} day(s)…")
+    for i, d in enumerate(days):
+        prep = prepare(raw_id, d, events, cfg)
+        if not prep.segments.empty:
+            run_methods(prep, cfg, [method], provider=provider, save=True)
+        bar.progress((i + 1) / len(days), text=f"{d} done")
+    bar.empty()
+
+
+def show_patterns(cfg, method, method_label, file_id, days, events) -> None:
+    st.markdown(
+        "Every **saved** run of the chosen method is pooled into **one event log per label**: each task is "
+        "a *case*, its steps are the *activities*. PM4Py then finds the **variants** (distinct step orders) "
+        "and a **directly-follows graph**. Only the method's own predicted tasks are used, never the task log.")
+    c1, c2 = st.columns([2, 3])
+    level = c1.radio("Activity level", ["steps", "sites"], horizontal=True, help=" ".join(
+        f"**{k}**: {v}" for k, v in LEVEL_HELP.items()))
+    c2.write("")
+    if c2.button(f"Run & save {method_label.lower()} on all {len(days)} day(s) in this file",
+                 help="Needed once per export so the patterns cover every day. "
+                      + ("Uses one or more LLM calls per day (cached afterwards)." if method == "llm" else "")):
+        try:
+            run_all_days(file_id, days, events, cfg, method, method_label)
+        except LLMConfigError as e:
+            st.error(str(e))
+            return
+        except PrivacyError as e:
+            st.error(f"Blocked before sending to the LLM: {e}")
+            return
+
+    res = mine_patterns(resolve_path(cfg, "runs_dir"), method, level)
+    if res["runs_without_traces"]:
+        st.caption(f"{len(res['runs_without_traces'])} older run(s) were saved before traces existed and are "
+                   "skipped; the button above re-runs them.")
+    if not res["tasks"]:
+        st.info(f"No saved {method_label.lower()} runs yet. Press the button above (or tick "
+                "*Save run* in the sidebar) to build them.")
+        return
+    save_patterns(res, resolve_path(cfg, "patterns_dir"))
+    m = st.columns(3)
+    m[0].metric("Saved days", res["runs"])
+    m[1].metric("Tasks (cases)", res["tasks"])
+    m[2].metric("Labels", len(res["labels"]))
+
+    for label, r in res["labels"].items():
+        head = (f"**{label}** · {r['cases']} task(s) · {r['n_variants']} variant(s) · "
+                f"most common way: {r['top_variant_share']:.0%}")
+        with st.expander(head, expanded=False):
+            st.caption(f"{r['cases']} tasks were done in {r['n_variants']} distinct way(s). "
+                       f"Fewer variants = a more routine workflow. Engine: {r['engine']}.")
+            table = pd.DataFrame([{"Tasks": v["count"], "Share": f"{v['share']:.0%}",
+                                   "Avg length (min)": v["mean_duration_min"],
+                                   "Variant (step order)": variant_text(v["activities"]),
+                                   "Days": ", ".join(v["days"]),
+                                   "Task IDs": ", ".join(v["task_ids"])} for v in r["variants"]])
+            st.dataframe(table, hide_index=True, use_container_width=True)
+            if r["dfg"]:
+                st.markdown("**Directly-follows graph** (arrow labels = how many times one activity came "
+                            "straight after the other, across all tasks with this label)")
+                st.graphviz_chart(to_dot(r), use_container_width=True)
+            else:
+                st.caption("Single-activity tasks only, so there is no graph to draw.")
+
+
 # ------------------------------------------------------------ page
 
 def main() -> None:
@@ -144,11 +221,13 @@ def main() -> None:
 
     st.title("🧭 Workflow reconstruction from activity telemetry")
     st.caption("Upload a day of ActivityWatch data, pick a method, and see the workflow it reconstructs.")
-    b1, b2, _ = st.columns([1, 1, 4])
+    b1, b2, b3, _ = st.columns([1, 1, 1, 3])
     if b1.button("ℹ️ How this project works", use_container_width=True):
         show_overview()
     if b2.button("📚 Core concepts & code", use_container_width=True):
         show_concepts()
+    if b3.button("📏 Benchmark plan", use_container_width=True):
+        show_benchmark()
 
     with st.sidebar:
         st.header("1 · Data")
@@ -187,6 +266,14 @@ def main() -> None:
                            help="Saved runs let later days detect repeats of earlier workflows.")
         go = st.button("▶ Run", type="primary", use_container_width=True)
 
+    tab_day, tab_pat = st.tabs(["📅 This day", "🔀 Patterns across days"])
+    with tab_pat:
+        show_patterns(cfg, method, method_label, file_id, days, events)
+    with tab_day:
+        show_day(cfg, file_id, day, events, method, method_label, go, save)
+
+
+def show_day(cfg, file_id, day, events, method, method_label, go, save) -> None:
     prep = prepare(file_id, day, events, cfg)
     if prep.segments.empty:
         st.info("No activity on this day after cleaning.")
@@ -200,10 +287,10 @@ def main() -> None:
                 run = run_methods(prep, cfg, [method], provider=provider, save=save)[method]
             except LLMConfigError as e:
                 st.error(str(e))
-                st.stop()
+                return
             except PrivacyError as e:
                 st.error(f"Blocked before sending to the LLM: {e}")
-                st.stop()
+                return
         st.session_state["result"] = (key, run)
 
     result = st.session_state.get("result")
@@ -211,6 +298,5 @@ def main() -> None:
         show_run(result[1], prep)
     else:
         st.info(f"**{day}** · {len(prep.segments)} activity segments ready. Choose a method and press **Run**.")
-
 
 main()
